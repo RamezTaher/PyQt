@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="modifier">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>690</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> font: 75 16pt &quot;Poppins&quot;;</string>
+   </property>
+   <property name="text">
+    <string>MODIFY</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="num_inscription">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>310</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+border: 1px solid rgb(37,39,48);
+
+padding-left:20px;
+padding-right:20px;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="num">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>430</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+border: 1px solid rgb(37,39,48);
+
+padding-left:20px;
+padding-right:20px;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>250</y>
+     <width>461</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; color:#fff;&quot;&gt;Student Subscription ID:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>370</y>
+     <width>461</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; color:#fff;&quot;&gt;New Phone Number:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>70</y>
+     <width>541</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 16pt &quot;Arial&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:20pt; font-weight:600;color:#fff; color:#FFFFFF;&quot;&gt;MODIFY PHONE NUMBER&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="annuler">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>690</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> font: 75 16pt &quot;Poppins&quot;;</string>
+   </property>
+   <property name="text">
+    <string>CANCEL</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="num_insc">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>360</y>
+     <width>221</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="num_2">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>480</y>
+     <width>221</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-30</x>
+     <y>0</y>
+     <width>1231</width>
+     <height>801</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>bg.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  
+  <zorder>label</zorder>
+  <zorder>modifier</zorder>
+  <zorder>num_inscription</zorder>
+  <zorder>num</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_5</zorder>
+  <zorder>annuler</zorder>
+  <zorder>num_insc</zorder>
+  <zorder>num_2</zorder>
+  <zorder>label_10</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

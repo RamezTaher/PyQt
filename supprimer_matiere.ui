@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>code_2</class>
+ <widget class="QWidget" name="code_2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1211</width>
+    <height>786</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>280</y>
+     <width>511</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#FFF;&quot;&gt;le code de la matiere:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="code">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>340</y>
+     <width>331</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+border: 1px solid rgb(37,39,48);
+
+padding-left:20px;
+padding-right:20px;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="supprimer">
+   <property name="geometry">
+    <rect>
+     <x>1010</x>
+     <y>660</y>
+     <width>171</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 14pt &quot;Poppins&quot;;
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>DELETE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="annuler">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>660</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 14pt &quot;Poppins&quot;;
+
+
+ </string>
+   </property>
+   <property name="text">
+    <string>CANCEL</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="code_3">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>380</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1211</width>
+     <height>811</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>bg.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+ 
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>110</y>
+     <width>651</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+
+font: 25pt &quot;Poppins Condensed&quot;;
+
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;color:#fff; &quot;&gt;Delete Subject:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <zorder>label_2</zorder>
+  <zorder>label</zorder>
+  <zorder>code</zorder>
+  <zorder>supprimer</zorder>
+  <zorder>annuler</zorder>
+  <zorder>code_3</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_4</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1188</width>
+    <height>788</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="supprimer">
+   <property name="geometry">
+    <rect>
+     <x>900</x>
+     <y>690</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> 
+font: 75 16pt &quot;Poppins&quot;;</string>
+   </property>
+   <property name="text">
+    <string>DELETE</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>220</y>
+     <width>591</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; color:#fff;&quot;&gt;Studies Level :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="annuler">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>690</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> font: 75 16pt &quot;Poppins&quot;;</string>
+   </property>
+   <property name="text">
+    <string>CANCEL</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="section_2">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>350</y>
+     <width>481</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="niveau">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>290</y>
+     <width>311</width>
+     <height>51</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="niveau_2">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>350</y>
+     <width>491</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>370</y>
+     <width>241</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; color:#000000;&quot;&gt;Students Section:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="section">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>440</y>
+     <width>311</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+border: 1px solid rgb(37,39,48);
+
+padding-left:20px;
+padding-right:20px;
+}
+QLineEdit:hover{
+	border: 2px solid rgb(222, 221, 218)
+}
+QLineEdit:focus{
+	border: 2px solid rgb(154, 208, 236)
+}</string>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CPI1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CPI 2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L1 INFO</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L1 TIC</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L1 EEA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L1 MATH</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L2 INFO </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L2 TIC</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L2 EEA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L2 MATH</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L3 INFO</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L3 TIC</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L3 EEA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ING 1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ING2</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="section_3">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>480</y>
+     <width>301</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-15</y>
+     <width>1221</width>
+     <height>821</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>bg.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+ 
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>60</y>
+     <width>651</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+
+font: 25pt &quot;Poppins Condensed&quot;;
+
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;color:#fff; &quot;&gt;Delete Student By Given Section&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;color:#fff; &quot;&gt;And Studies Level&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <zorder>label_3</zorder>
+  <zorder>supprimer</zorder>
+  <zorder>label</zorder>
+  <zorder>annuler</zorder>
+  <zorder>section_2</zorder>
+  <zorder>niveau</zorder>
+  <zorder>niveau_2</zorder>
+  <zorder>label_2</zorder>
+  <zorder>section</zorder>
+  <zorder>section_3</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_4</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

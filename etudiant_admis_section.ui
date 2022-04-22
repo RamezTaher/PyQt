@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>40</y>
+     <width>681</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:18pt; color:#fff &quot;&gt;SUCCESSFUL STUDENT BY GIVEN SECTION:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ok">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>630</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Poppins&quot;;</string>
+   </property>
+   <property name="text">
+    <string>RETURN</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="afficher">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>630</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Poppins&quot;;</string>
+   </property>
+   <property name="text">
+    <string>SHOW</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>230</y>
+     <width>751</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Subscription ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>First Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Last Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Section</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Studies Level</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>moyenne</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>504</x>
+     <y>130</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt;color:#fff&quot;&gt;Section:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="section_2">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>170</y>
+     <width>241</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="section">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>130</y>
+     <width>261</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+border: 1px solid rgb(37,39,48);
+
+padding-left:20px;
+padding-right:20px;
+}
+</string>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CPI1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CPI2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L1 INFO</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L1 TIC</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L1 EEA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L1 MATH</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L2 INFO </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L2 TIC</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L2 EEA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L2 MATH</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L3 INFO</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L3 TIC</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L3 EEA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ING 1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ING2</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>-130</x>
+     <y>0</y>
+     <width>1441</width>
+     <height>861</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>bg.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  
+  <zorder>label_4</zorder>
+  <zorder>label</zorder>
+  <zorder>ok</zorder>
+  <zorder>afficher</zorder>
+  <zorder>tableWidget</zorder>
+  <zorder>label_2</zorder>
+  <zorder>section_2</zorder>
+  <zorder>section</zorder>
+  <zorder>label_3</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

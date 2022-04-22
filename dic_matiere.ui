@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1189</width>
+    <height>795</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>90</y>
+     <width>571</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;SUBJECTS CONTENT:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ok">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>680</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>190</y>
+     <width>621</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>CODE</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>COEFFICIENT</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DESIGNATION</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Section</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Term</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>-310</x>
+     <y>0</y>
+     <width>1851</width>
+     <height>821</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>bg.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+
+  <zorder>label_2</zorder>
+  <zorder>label</zorder>
+  <zorder>ok</zorder>
+  <zorder>tableWidget</zorder>
+  <zorder>label_3</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

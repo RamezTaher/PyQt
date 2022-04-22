@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="afficher">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>630</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Poppins&quot;;</string>
+   </property>
+   <property name="text">
+    <string>SHOW</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>30</y>
+     <width>551</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 63 18pt &quot;Open Sans Semibold&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#FFFFFF;&quot;&gt;SEARCH BY SECTION AND STUDIES LEVEL&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ok">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>630</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Poppins&quot;;</string>
+   </property>
+   <property name="text">
+    <string>RETURN</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>130</y>
+     <width>211</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; color:#fff&quot;&gt;Students Section:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="section_2">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>180</y>
+     <width>231</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>250</y>
+     <width>1001</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+border: 1px solid rgb(37,39,48);
+
+padding-left:20px;
+padding-right:20px;
+}
+</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>CODE</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>First Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>COEFFICIENT</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Section</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Term</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Subject Code</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DS Mark</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Exam Mark</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Subscription ID</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QComboBox" name="section">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>130</y>
+     <width>261</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+border: 1px solid rgb(37,39,48);
+
+padding-left:20px;
+padding-right:20px;
+}
+</string>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CPI1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>CPI2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L1 INFO</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L1 TIC</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L1 EEA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L1 MATH</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L2 INFO </string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L2 TIC</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L2 EEA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L2 MATH</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L3 INFO</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L3 TIC</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>L3 EEA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ING 1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ING2</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>-230</x>
+     <y>-10</y>
+     <width>1441</width>
+     <height>881</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>bg.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  
+  <zorder>label_3</zorder>
+  <zorder>afficher</zorder>
+  <zorder>label</zorder>
+  <zorder>ok</zorder>
+  <zorder>label_2</zorder>
+  <zorder>section_2</zorder>
+  <zorder>tableWidget</zorder>
+  <zorder>section</zorder>
+  <zorder>label_10</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

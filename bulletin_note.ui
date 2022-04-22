@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1201</width>
+    <height>801</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>50</y>
+     <width>721</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;Poppins&quot;;
+ font: 75 20pt &quot;Poppins&quot;;
+color: rgb(0, 0, 0);
+ </string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; color:#FFFFFF;&quot;&gt;STUDENT BILL MARKS ::&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>150</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Num_inscription:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="num_inscription">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>150</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+border: 1px solid rgb(37,39,48);
+
+padding-left:20px;
+padding-right:20px;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="num">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>200</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>220</y>
+     <width>511</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>MATIERES</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DS Mark</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Exam Mark</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>COEFFICIENT</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>590</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; &quot;&gt;General Average :&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="moyenne">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>590</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ok">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>690</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Poppins&quot;;</string>
+   </property>
+   <property name="text">
+    <string>RETURN</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="afficher">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>690</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Poppins&quot;;</string>
+   </property>
+   <property name="text">
+    <string>SHOW</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="a">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>620</y>
+     <width>171</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p/&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>-200</x>
+     <y>-30</y>
+     <width>1441</width>
+     <height>861</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>bg.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="imprimer">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>690</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>imprimer</string>
+   </property>
+  </widget>
+  <zorder>label_4</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>num_inscription</zorder>
+  <zorder>num</zorder>
+  <zorder>tableWidget</zorder>
+  <zorder>label_3</zorder>
+  <zorder>moyenne</zorder>
+  <zorder>ok</zorder>
+  <zorder>afficher</zorder>
+  <zorder>a</zorder>
+  <zorder>imprimer</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLineEdit" name="code">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>150</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+border: 1px solid rgb(37,39,48);
+
+padding-left:20px;
+padding-right:20px;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="num_inscription4">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>130</y>
+     <width>131</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; color:#fff;&quot;&gt;Subject Code:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="afficher">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>700</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Poppins&quot;;</string>
+   </property>
+   <property name="text">
+    <string>SHOW</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>20</y>
+     <width>551</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 63 18pt &quot;Open Sans Semibold&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#FFFFFF;&quot;&gt;SEARCH BY SUBJECT CODE:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ok">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>700</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Poppins&quot;;</string>
+   </property>
+   <property name="text">
+    <string>RETURN</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="code_2">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>200</y>
+     <width>221</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>250</y>
+     <width>631</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>CODE</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>COEFFICIENT</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>DESIGNATION</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Section</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>TERM</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>-180</x>
+     <y>-30</y>
+     <width>1391</width>
+     <height>881</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>bg.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  
+  <zorder>label_2</zorder>
+  <zorder>code</zorder>
+  <zorder>num_inscription4</zorder>
+  <zorder>afficher</zorder>
+  <zorder>label</zorder>
+  <zorder>ok</zorder>
+  <zorder>code_2</zorder>
+  <zorder>tableWidget</zorder>
+  <zorder>label_10</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

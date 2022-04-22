@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1192</width>
+    <height>786</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>270</y>
+     <width>211</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#ffffff;&quot;&gt;Subscription ID:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="num_inscription">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>320</y>
+     <width>331</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+border: 1px solid rgb(37,39,48);
+
+padding-left:20px;
+padding-right:20px;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="supprimer">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>710</y>
+     <width>161</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 14pt &quot;Poppins&quot;;
+ 
+</string>
+   </property>
+   <property name="text">
+    <string>DELETE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="annuler">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>710</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 14pt &quot;Poppins&quot;;
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>CANCEL</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="num_inscription_2">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>370</y>
+     <width>321</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>-85</y>
+     <width>1271</width>
+     <height>931</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>bg.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>30</y>
+     <width>541</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+
+font: 25pt &quot;Poppins Condensed&quot;;
+
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:24pt; color:#FFFFFF;&quot;&gt;DELETE GIVEN STUDENT:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  
+  <zorder>label_2</zorder>
+  <zorder>label</zorder>
+  <zorder>num_inscription</zorder>
+  <zorder>supprimer</zorder>
+  <zorder>annuler</zorder>
+  <zorder>num_inscription_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_10</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

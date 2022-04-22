@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1060</width>
+    <height>631</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">alternate-background-color: rgb(61, 85, 55);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>170</y>
+      <width>131</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(137, 33, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../téléchargement.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>500</y>
+      <width>381</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 11pt &quot;Poppins&quot;;</string>
+    </property>
+    <property name="text">
+     <string>ANNEE UNIVERSITAIRE :2021/2022</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>150</y>
+      <width>1071</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 26pt &quot;Bernard MT Condensed&quot;;</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Bernard MT Condensed'; font-size:26pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Poppins'; font-size:36pt; font-weight:600;color:#fff; font-style:italic; color:#750000;&quot;&gt;MINI PROJET : GESTION DES     NOTES  DES      ETUDIANTS&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>460</y>
+      <width>461</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 17pt &quot;MS Sans Serif&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;color:#fff;&quot;&gt;Realise par : XXXXX&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>-10</y>
+      <width>1071</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Pictures/Capture d’écran 2022-04-09 162455.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label_4</zorder>
+   <zorder>textBrowser</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1060</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHome">
+    <property name="title">
+     <string>ACCUEIL</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuMenageStudent">
+    <property name="title">
+     <string>Gestion des etudiants</string>
+    </property>
+    <widget class="QMenu" name="menuUpdateStudent">
+     <property name="title">
+      <string>mise a jour des etudiants</string>
+     </property>
+     <widget class="QMenu" name="menuDeleteStudent">
+      <property name="title">
+       <string>supprimer etudiant</string>
+      </property>
+      <addaction name="onDeleteStudentDone"/>
+      <addaction name="onDeleteStudentBySectionDone"/>
+      <addaction name="onDeleteStudentByLevelDone"/>
+      <addaction name="onDeleteStudentByLevelAndSectionDone"/>
+     </widget>
+     <widget class="QMenu" name="MenuModifyStudent">
+      <property name="title">
+       <string>modifier etudiant</string>
+      </property>
+      <addaction name="onPhone"/>
+      <addaction name="onMail"/>
+      <addaction name="onAddress"/>
+     </widget>
+     <addaction name="onAddStudent"/>
+     <addaction name="menuDeleteStudent"/>
+     <addaction name="MenuModifyStudent"/>
+    </widget>
+    <widget class="QMenu" name="menuSearchAndPrint">
+     <property name="title">
+      <string>recherche et affichage</string>
+     </property>
+     <addaction name="onShowStudents"/>
+     <addaction name="onSearchById"/>
+     <addaction name="onSearchBySection"/>
+     <addaction name="onSearchBySectionAndLevel"/>
+     <addaction name="onSearchByLevel"/>
+    </widget>
+    <addaction name="menuUpdateStudent"/>
+    <addaction name="menuSearchAndPrint"/>
+   </widget>
+   <widget class="QMenu" name="menuMenageSubjects">
+    <property name="title">
+     <string>Gestion des matieres</string>
+    </property>
+    <widget class="QMenu" name="menuUpdate">
+     <property name="title">
+      <string>mise a jour</string>
+     </property>
+     <widget class="QMenu" name="menuModifySubjectsData">
+      <property name="title">
+       <string>modifier les donnée d'une matiere</string>
+      </property>
+      <addaction name="onName"/>
+      <addaction name="OnCoefficient"/>
+     </widget>
+     <addaction name="onAddNewSubject"/>
+     <addaction name="onDeleteSubject"/>
+     <addaction name="menuModifySubjectsData"/>
+    </widget>
+    <widget class="QMenu" name="menuSearchAndPrint2">
+     <property name="title">
+      <string>recherche et affichage</string>
+     </property>
+     <addaction name="onShowSubjects"/>
+     <addaction name="onSearchByCode"/>
+     <addaction name="onSearchBySection2"/>
+     <addaction name="onSeachByTermAndSection"/>
+    </widget>
+    <addaction name="menuUpdate"/>
+    <addaction name="menuSearchAndPrint2"/>
+   </widget>
+   <widget class="QMenu" name="menuMenageMarks">
+    <property name="title">
+     <string>Gestion des notes</string>
+    </property>
+    <widget class="QMenu" name="menuUpdate2">
+     <property name="title">
+      <string>mise a jour</string>
+     </property>
+     <addaction name="onAddNewMark"/>
+     <addaction name="onDeleteMark"/>
+     <addaction name="onModifyDataMark"/>
+    </widget>
+    <widget class="QMenu" name="menuSearchAndPrint">
+     <property name="title">
+      <string>recherche , affichage</string>
+     </property>
+     <addaction name="onShowMarks"/>
+     <addaction name="onSearchMarkByID"/>
+     <addaction name="onSearchBySectionAndLevel2"/>
+     <addaction name="onSearchMarkByIDAndTerm"/>
+    </widget>
+    <addaction name="menuUpdate2"/>
+    <addaction name="menuSearchAndPrint"/>
+   </widget>
+   <widget class="QMenu" name="menuCountAndShow">
+    <property name="title">
+     <string>Calcul et affichage</string>
+    </property>
+    <addaction name="onBillByStudent"/>
+    <addaction name="onBillByTerm"/>
+    <addaction name="onSuccBySection"/>
+    <addaction name="onFailBySection"/>
+    <addaction name="onSuccByISIMM"/>
+    <addaction name="onFailByISIMM"/>
+    <addaction name="onFailBySection2"/>
+    <addaction name="onAverageBySEction"/>
+   </widget>
+   <widget class="QMenu" name="menuSave">
+    <property name="title">
+     <string>Enreg.et Recup.Fichiers</string>
+    </property>
+    <addaction name="onSaveStudents"/>
+    <addaction name="onBackupStudents"/>
+    <addaction name="onSaveSubjects"/>
+    <addaction name="onBackUpSubjects"/>
+    <addaction name="onSaveMarks"/>
+    <addaction name="onBackUpMarks"/>
+   </widget>
+   <addaction name="menuHome"/>
+   <addaction name="menuMenageStudent"/>
+   <addaction name="menuMenageSubjects"/>
+   <addaction name="menuMenageMarks"/>
+   <addaction name="menuCountAndShow"/>
+   <addaction name="menuSave"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="onAddStudent">
+   <property name="text">
+    <string>ajouter etudiant</string>
+   </property>
+  </action>
+  <action name="onDeleteStudentDone">
+   <property name="text">
+    <string>suppression etudiant donnée</string>
+   </property>
+  </action>
+  <action name="onDeleteStudentBySectionDone">
+   <property name="text">
+    <string>suppression des etudiants d'une section donnée</string>
+   </property>
+  </action>
+  <action name="onDeleteStudentByLevelDone">
+   <property name="text">
+    <string>suppression des etudiants d'un niveau donné</string>
+   </property>
+  </action>
+  <action name="onDeleteStudentByLevelAndSectionDone">
+   <property name="text">
+    <string>suppression des etudiants d'un niveau donné et d'une section donnée</string>
+   </property>
+  </action>
+  <action name="onPhone">
+   <property name="text">
+    <string>Phone</string>
+   </property>
+  </action>
+  <action name="onMail">
+   <property name="text">
+    <string>Email</string>
+   </property>
+  </action>
+  <action name="onAddress">
+   <property name="text">
+    <string>Adress</string>
+   </property>
+  </action>
+  <action name="onShowStudents">
+   <property name="text">
+    <string>contenu du dictionnaire etudiant</string>
+   </property>
+  </action>
+  <action name="onSearchById">
+   <property name="text">
+    <string>recherche par numero d'inscription</string>
+   </property>
+  </action>
+  <action name="onSearchBySection">
+   <property name="text">
+    <string>recherche par section</string>
+   </property>
+  </action>
+  <action name="onSearchBySectionAndLevel">
+   <property name="text">
+    <string>recherche par section et niveau</string>
+   </property>
+  </action>
+  <action name="onSearchByLevel">
+   <property name="text">
+    <string>recherche par niveau</string>
+   </property>
+  </action>
+  <action name="onAddNewSubject">
+   <property name="text">
+    <string>ajouter une nouvelle matiere</string>
+   </property>
+  </action>
+  <action name="onDeleteSubject">
+   <property name="text">
+    <string>supprimer une matiere</string>
+   </property>
+  </action>
+  <action name="onName">
+   <property name="text">
+    <string>First Name</string>
+   </property>
+  </action>
+  <action name="OnCoefficient">
+   <property name="text">
+    <string>coefficient</string>
+   </property>
+  </action>
+  <action name="onShowSubjects">
+   <property name="text">
+    <string>contenu du dictionnaire matiere</string>
+   </property>
+  </action>
+  <action name="onSearchByCode">
+   <property name="text">
+    <string>recherche par code</string>
+   </property>
+  </action>
+  <action name="onSearchBySection2">
+   <property name="text">
+    <string>recherche par section</string>
+   </property>
+  </action>
+  <action name="onSeachByTermAndSection">
+   <property name="text">
+    <string>recherche par semestre et section</string>
+   </property>
+  </action>
+  <action name="onAddNewMark">
+   <property name="text">
+    <string>ajouter une nouvelle note</string>
+   </property>
+  </action>
+  <action name="onDeleteMark">
+   <property name="text">
+    <string>supprimer une note</string>
+   </property>
+  </action>
+  <action name="onModifyDataMark">
+   <property name="text">
+    <string>modifier les donnes d'une note</string>
+   </property>
+  </action>
+  <action name="onShowMarks">
+   <property name="text">
+    <string>contenu du dictionnaire notes</string>
+   </property>
+  </action>
+  <action name="onSearchMarkByID">
+   <property name="text">
+    <string>recherche par numero inscription</string>
+   </property>
+  </action>
+  <action name="onSearchBySectionAndLevel2">
+   <property name="text">
+    <string>recherche par section et niveau</string>
+   </property>
+  </action>
+  <action name="onSearchMarkByIDAndTerm">
+   <property name="text">
+    <string>recherche par numero inscription et semestre</string>
+   </property>
+  </action>
+  <action name="onBillByStudent">
+   <property name="text">
+    <string>STUDENT BILL MARKS :</string>
+   </property>
+  </action>
+  <action name="onBillByTerm">
+   <property name="text">
+    <string>STUDENT BILL MARKS : By Term</string>
+   </property>
+  </action>
+  <action name="onSuccBySection">
+   <property name="text">
+    <string>Successed student by given section</string>
+   </property>
+  </action>
+  <action name="onFailBySection">
+   <property name="text">
+    <string>Successed student by given section</string>
+   </property>
+  </action>
+  <action name="onSuccByISIMM">
+   <property name="text">
+    <string>Successed student by ISIMM</string>
+   </property>
+  </action>
+  <action name="onFailByISIMM">
+   <property name="text">
+    <string>Failed student by ISIMM</string>
+   </property>
+  </action>
+  <action name="onFailBySection2">
+   <property name="text">
+    <string>Successed student by given section</string>
+   </property>
+  </action>
+  <action name="onAverageBySEction">
+   <property name="text">
+    <string>Student Average by given section</string>
+   </property>
+  </action>
+  <action name="onSaveStudents">
+   <property name="text">
+    <string>Save Students Files</string>
+   </property>
+  </action>
+  <action name="onBackupStudents">
+   <property name="text">
+    <string>Back Up Students Files</string>
+   </property>
+  </action>
+  <action name="onSaveSubjects">
+   <property name="text">
+    <string>Save Subjects Files</string>
+   </property>
+  </action>
+  <action name="onBackUpSubjects">
+   <property name="text">
+    <string>BackUp Subjects Files</string>
+   </property>
+  </action>
+  <action name="onSaveMarks">
+   <property name="text">
+    <string>Save Marks Files</string>
+   </property>
+  </action>
+  <action name="onBackUpMarks">
+   <property name="text">
+    <string>Backup Marks Files</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

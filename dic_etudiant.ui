@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1201</width>
+    <height>792</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>60</y>
+     <width>601</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;Poppins&quot;;
+font: 75 20pt &quot;Poppins&quot;;
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;color:#fff; color:#FFFFFF;&quot;&gt;STUDENTS CONTENT:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ok">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>650</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>200</y>
+     <width>981</width>
+     <height>391</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Subscription ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>First Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Last Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Birth Date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Adress</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Email</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Phone</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Section</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Studies Level</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>-350</x>
+     <y>0</y>
+     <width>1851</width>
+     <height>821</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>bg.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  
+  <zorder>label_2</zorder>
+  <zorder>label</zorder>
+  <zorder>ok</zorder>
+  <zorder>tableWidget</zorder>
+  <zorder>label_3</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

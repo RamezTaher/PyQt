@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>code_2</class>
+ <widget class="QWidget" name="code_2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1184</width>
+    <height>776</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>300</y>
+     <width>511</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:14pt; color:#000000;&quot;&gt;le code de la note:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="code">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>360</y>
+     <width>311</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+border: 1px solid rgb(37,39,48);
+
+padding-left:20px;
+padding-right:20px;
+}
+QLineEdit:hover{
+	border: 2px solid rgb(222, 221, 218)
+}
+QLineEdit:focus{
+	border: 2px solid rgb(154, 208, 236)
+}</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="supprimer">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>690</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 14pt &quot;Poppins&quot;;
+ 
+</string>
+   </property>
+   <property name="text">
+    <string>DELETE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="annuler">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>690</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 14pt &quot;Poppins&quot;;
+ 
+</string>
+   </property>
+   <property name="text">
+    <string>CANCEL</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="code_3">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>400</y>
+     <width>291</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1181</width>
+     <height>781</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>bg.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>30</y>
+     <width>131</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>output-onlinepngtools.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>90</y>
+     <width>651</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+
+font: 25pt &quot;Poppins Condensed&quot;;
+
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;color:#fff; &quot;&gt;Suppresion d'une note:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <zorder>label_2</zorder>
+  <zorder>label</zorder>
+  <zorder>code</zorder>
+  <zorder>supprimer</zorder>
+  <zorder>annuler</zorder>
+  <zorder>code_3</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_4</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

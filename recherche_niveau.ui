@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLineEdit" name="niveau">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>160</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+border: 1px solid rgb(37,39,48);
+
+padding-left:20px;
+padding-right:20px;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="num_inscription4">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>140</y>
+     <width>201</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; color:#fff;&quot;&gt;Studies Level:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="afficher">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>630</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Poppins&quot;;</string>
+   </property>
+   <property name="text">
+    <string>SHOW</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>20</y>
+     <width>551</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 63 18pt &quot;Open Sans Semibold&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#FFFFFF;&quot;&gt;SEARCH BY STUDIES LEVEL&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ok">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>630</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;Poppins&quot;;</string>
+   </property>
+   <property name="text">
+    <string>RETURN</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="niveau_2">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>200</y>
+     <width>221</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>250</y>
+     <width>991</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <column>
+    <property name="text">
+     <string>Subscription ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>First Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Last Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Birth Date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Adress</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Email</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Phone</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Section</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Studies Level</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>-290</x>
+     <y>-30</y>
+     <width>1551</width>
+     <height>891</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>bg.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+
+  <zorder>label_2</zorder>
+  <zorder>niveau</zorder>
+  <zorder>num_inscription4</zorder>
+  <zorder>afficher</zorder>
+  <zorder>label</zorder>
+  <zorder>ok</zorder>
+  <zorder>niveau_2</zorder>
+  <zorder>tableWidget</zorder>
+  <zorder>label_10</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
